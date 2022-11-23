@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>The web framework for perfectionists with deadlines | Django</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <img
+            src="https://static.djangoproject.com/img/logo-django.42234b631760.svg"
+            alt="Django"
+          />
+        </h1>
+        <nav class="nav">
+          <ul class="list">
+            <!-- (li.list-item>a)*8-->
+            <li class="list-item"><a href="#">Overview</a></li>
+            <li class="list-item"><a href="#">Download</a></li>
+            <li class="list-item"><a href="#">News</a></li>
+            <li class="list-item"><a href="#">Community</a></li>
+            <li class="list-item"><a href="#">Code</a></li>
+            <li class="list-item"><a href="#">About</a></li>
+            <li class="list-item"><a href="#">♥ Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero-section">
+        <div class="container">
+          <p class="intro-desc">
+            Django makes it easier to build better web apps more quickly and with less
+            code.
+          </p>
+          <a href="#" class="cta hero-cta">Get started with Django</a>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="main-content">
+          <h2 class="main-title">Stay in the loop</h2>
+          <p class="main-desc">
+            Subscribe to one of our mailing lists to stay up to date with everything in
+            the Django community:
+          </p>
+          <div class="mailing-layout">
+            <div class="mailing">
+              <h3 class="mailing-title">
+                <a href="#">Using Django</a>
+              </h3>
+              <p class="mailing-desc">Get help with Django and follow announcements.</p>
+              <form action="#" class="mailing-form">
+                <label for="input-following">send email for following news</label>
+                <input
+                  type="email"
+                  name="input-following"
+                  id="input-following"
+                  placeholder="Enter email"
+                />
+                <button class="mailing-form-btn">Submit</button>
+              </form>
+              <p class="mailing-desc">
+                You can also subscribe by sending an email to
+                <a href="django-users+subscribe@googlegroups.com"
+                  >django-users+subscribe@googlegroups.com</a
+                >
+                and following the instructions that will be sent to you
+              </p>
+            </div>
+            <div class="mailing">
+              <h3 class="mailing-title">
+                <a href="#">Contributing to Django</a>
+              </h3>
+              <p class="mailing-desc">Contribute to the development of Django itself.</p>
+              <form action="#" class="mailing-form">
+                <label for="email">send email for contribution</label>
+                <input type="email" name="" id="" placeholder="Enter email" />
+                <button class="mailing-form-btn">Submit</button>
+              </form>
+              <p class="mailing-desc">
+                Before asking a question about how to contribute, read
+                <a href="https://docs.djangoproject.com/en/dev/internals/contributing/">
+                  Contributing to Django </a
+                >. Many frequently asked questions are answered there.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="side-content">
+          <div class="container-side-cta">
+            <a href="#" class="cta side-cta"> Download <em>latest release: 4.1</em> </a>
+            <a href="#" class="more">django documentation</a>
+          </div>
+          <div class="infos latest-news">
+            <h3 class="infos-title">Latest news</h3>
+            <article class="news_article">
+              <h4 class="news-title">
+                <a href="#">Django security releases issued: 4.0.7 and 3.2.15</a>
+              </h4>
+              <p class="news-desc">Django 4.0.7 and 3.2.15 fix one security issue.</p>
+              <p class="news-meta">
+                Posted by <span>Carlton Gibson</span> on
+                <time datetime="2022-08-03">8월 3, 2022</time>
+              </p>
+            </article>
+            <a href="#" class="more">More news</a>
+          </div>
+          <div class="infos get-involved">
+            <h3 class="infos-title">Get Help</h3>
+            <dl class="list-communities">
+              <dt class="community-title">
+                <a href="#">#django IRC channel</a>
+              </dt>
+              <dd class="community-desc">Chat with other Django users</dd>
+              <dt class="community-title">
+                <a href="#">Django Discord Server</a>
+              </dt>
+              <dd class="community-desc">Join the Django Discord Community</dd>
+              <dt class="community-title">
+                <a href="#">Official Django Forum</a>
+              </dt>
+              <dd class="community-desc">Join the community on the Django Forum.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="content-footer">
+      <div class="links">
+        <div class="col learn">
+          <h2>Learn More</h2>
+          <ul>
+            <li>
+              <a href="https://www.djangoproject.com/start/overview/">About Django</a>
+            </li>
+
+            <li>
+              <a href="https://www.djangoproject.com/start/"
+                >Getting Started with Django</a
+              >
+            </li>
+            <li>
+              <a href="https://docs.djangoproject.com/en/dev/internals/organization/"
+                >Team Organization</a
+              >
+            </li>
+            <li>
+              <a href="https://www.djangoproject.com/foundation/"
+                >Django Software Foundation</a
+              >
+            </li>
+            <li><a href="https://www.djangoproject.com/conduct/">Code of Conduct</a></li>
+            <li>
+              <a href="https://www.djangoproject.com/diversity/">Diversity Statement</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col involved">
+          <h2>Get Involved</h2>
+          <ul>
+            <li><a href="https://www.djangoproject.com/community/">Join a Group</a></li>
+            <li>
+              <a href="https://docs.djangoproject.com/en/dev/internals/contributing/"
+                >Contribute to Django</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/"
+                >Submit a Bug</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues"
+                >Report a Security Issue</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col follow">
+          <h2>Follow Us</h2>
+          <ul>
+            <li><a href="https://github.com/django">GitHub</a></li>
+            <li><a href="https://twitter.com/djangoproject">Twitter</a></li>
+            <li><a href="https://www.djangoproject.com/rss/weblog/">News RSS</a></li>
+            <li>
+              <a href="https://groups.google.com/forum/#!forum/django-users"
+                >Django Users Mailing List</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col support">
+          <h2>Support Us</h2>
+          <ul>
+            <li>
+              <a href="https://www.djangoproject.com/fundraising/">Sponsor Django</a>
+            </li>
+            <li>
+              <a href="https://django.threadless.com/" target="_blank"
+                >Official merchandise store</a
+              >
+            </li>
+            <li><a href="/foundation/donate/#amazon-smile">Amazon Smile</a></li>
+            <li>
+              <a href="/foundation/donate/#benevity-giving"
+                >Benevity Workplace Giving Program</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
